@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">testNoto</string>
+    <string name="noto_font_name">NotoSans</string>
+    <string name="aller_font_name">Aller</string>
+    <string name="mMessage">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in lacus sagittis, pretium </string>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>

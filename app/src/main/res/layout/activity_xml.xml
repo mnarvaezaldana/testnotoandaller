@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.theme.XmlActivity">
+
+    <TextView
+        android:id="@+id/fontLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/mSwitch"
+        android:layout_marginTop="50dp"
+        android:text="@string/aller_font_name"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/mSwitch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/mButton"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/mSwitch"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:text="to Compose"/>
+
+    <TextView
+        android:id="@+id/mTextViewEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/mSwitch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constrainedWidth="true"
+        android:fontFamily="@font/aller_regular"
+        android:layout_margin="16dp"
+        android:text="@string/mMessage"/>
+
+    <TextView
+        android:id="@+id/mTextViewTamil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/mTextViewEnglish"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constrainedWidth="true"
+        android:fontFamily="@font/aller_regular"
+        android:layout_margin="16dp"
+        android:text="பிரான்சின் பொதுவாக தொழில்துறை பகுதியானது நோர்டின் துறையாகும்,"/>
+
+    <TextView
+        android:id="@+id/mTextViewKannada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/mTextViewTamil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constrainedWidth="true"
+        android:fontFamily="@font/aller_regular"
+        android:layout_margin="16dp"
+        android:text="ಫ್ರಾನ್ಸ್‌ನ ವಿಶಿಷ್ಟವಾಗಿ ಕೈಗಾರಿಕಾ ಪ್ರದೇಶವು ಉಣ್ಣೆಯ ಉದ್ಯಮದ ಕೇಂದ್ರವಾದ ನಾರ್ಡ್‌ನ ಇಲಾಖೆಯಾಗಿದೆ, ಆದರೆ ಇತರ ಜವಳಿ ಕೈಗಾರಿಕೆಗಳಲ್ಲಿ, ಲೋಹದ ಕೆಲಸದಲ್ಲಿ ಮತ್ತು ಇತರ ವಿವಿಧ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಪ್ರಮುಖವಾಗಿ ಕಾಳಜಿ ವಹಿಸುತ್ತದೆ."/>
+
+    <TextView
+        android:id="@+id/mTextViewOriya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/mTextViewKannada"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constrainedWidth="true"
+        android:fontFamily="@font/aller_regular"
+        android:layout_margin="16dp"
+        android:text="ଫ୍ରାନ୍ସର ଶିଳ୍ପାଞ୍ଚଳ ହେଉଛି ନର୍ଡ ବିଭାଗ, ପଶମ ଶିଳ୍ପର ଆସନ, କିନ୍ତୁ ଅନ୍ୟ ବୟନ ଶିଳ୍ପ, ଧାତୁ କାର୍ଯ୍ୟରେ ଏବଂ ଅନ୍ୟାନ୍ୟ କ୍ଷେତ୍ରରେ ମଧ୍ୟ ସେ ଚିନ୍ତିତ"/>
+
+    <TextView
+        android:id="@+id/mTextViewUrdu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/mTextViewOriya"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constrainedWidth="true"
+        android:fontFamily="@font/aller_regular"
+        android:layout_margin="16dp"
+        android:text="فرانس کا عام طور پر صنعتی علاقہ نورڈ کا محکمہ ہے، جو اونی صنعت کا مرکز ہے، لیکن ٹیکسٹائل کی دیگر صنعتوں، دھاتی کام کرنے اور دیگر مختلف ص"/>
+
+    <TextView
+        android:id="@+id/mTextViewTelugu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/mTextViewUrdu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constrainedWidth="true"
+        android:fontFamily="@font/aller_regular"
+        android:layout_margin="16dp"
+        android:text="ఫ్రాన్స్‌లోని సాధారణంగా పారిశ్రామిక ప్రాంతం నోర్డ్ డిపార్ట్‌మెంట్, ఇది ఉన్ని పరిశ్రమ యొక్క స్థానం, కానీ ఇతర వస్త్ర పరిశ్రమలలో, మెటల్ పనిలో మరియు అనేక ఇతర రంగాలలో ప్రముఖంగా ఉంటుంది."/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
